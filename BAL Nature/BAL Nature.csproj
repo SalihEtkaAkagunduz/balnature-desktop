@@ -1,0 +1,845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ED8AFFE-5F70-40AA-885C-042634FCE0AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BAL_Nature</RootNamespace>
+    <AssemblyName>BAL Nature</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\ss\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>1</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>https://www.seazer.com/</InstallUrl>
+    <SupportUrl>https://balnatureerasmus.wixsite.com/balnature</SupportUrl>
+    <ErrorReportUrl>https://balnatureerasmus.wixsite.com/balnature</ErrorReportUrl>
+    <ProductName>Bal Nature</ProductName>
+    <PublisherName>SEAzer</PublisherName>
+    <SuiteName>Bal Nature</SuiteName>
+    <MinimumRequiredVersion>2.7.343.96</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1005</ApplicationRevision>
+    <ApplicationVersion>31.66.343.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>86CE25CD212625C6CF9FB22B04AF3E4682B741FB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BAL Nature_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>image-removebg-preview.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAL Nature -Main\BAL Nature\BAL Nature\bin\Debug\DevExpress.Data.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Diagram.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAL Nature -Main - Kopya - Kopya\BAL Nature\BAL Nature\bin\Debug\DevExpress.Printing.v22.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAL Nature -Main\BAL Nature\BAL Nature\bin\Debug\DevExpress.Utils.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAL Nature -Main\BAL Nature\BAL Nature\bin\Debug\DevExpress.Utils.v22.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v22.2.Wizard, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\BAL Nature -Main - Kopya - Kopya\BAL Nature\BAL Nature\bin\Debug\DevExpress.XtraEditors.v22.2.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaFoundation, Version=3.1.0.32450, Culture=neutral, PublicKeyToken=36fa660e1d6ebf8d, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\MediaFoundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Toolkit.Uwp.Notifications, Version=7.0.0.0, Culture=neutral, PublicKeyToken=4aff67a105548ee2, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Microsoft.Toolkit.Uwp.Notifications.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadChart, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadChart.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDiagram, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadDiagram.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadDock.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadMap, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadMarkupEditor, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadMarkupEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadSpreadsheet, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadSpreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadToastNotification, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadToastNotification.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadToastNotification.Design, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadToastNotification.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadWebCam, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RadWebCam.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RichTextEditor, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.RichTextEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Scheduler, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.SpellChecker, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.SpellChecker.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.SyntaxEditor, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.SyntaxEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Crystal, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.CrystalDark, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Fluent, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.HighContrastBlack, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Material, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.MaterialBlueGrey, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2019, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.WinControls.Themes.Office2019.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroTouch, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows11, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Windows.Documents.CMapUtils, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.CMapUtils.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Core, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Fixed, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Fixed.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Flow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow.FormatProviders.Doc, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Flow.FormatProviders.Doc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Flow.FormatProviders.Pdf, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Flow.FormatProviders.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Spreadsheet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Xls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.MediaFoundation, Version=2023.1.111.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.MediaFoundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Zip, Version=2023.1.104.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\Telerik.Windows.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TelerikData, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\TelerikData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikExport, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Progress\Telerik UI for WinForms R1 2023\Bin48\TelerikExport.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bild.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="veriaktarimi.cs" />
+    <Compile Include="connection.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="BAL Nature_TemporaryKey.pfx" />
+    <None Include="balll.json" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accessibility_new_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accessibility_new_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_circle_FILL0_wght400_GRAD0_opsz482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\balll.json" />
+    <None Include="Resources\balnature-firebase-adminsdk-f72qs-14dcf9e1a0.json" />
+    <None Include="Resources\diversity_1_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diversity_1_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forum_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forum_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-info-squared-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-info-squared-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-questions-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-questions-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-subtract-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-subtract-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-subtract-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-x-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-x-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1263327539-612x612-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\json1.json" />
+    <None Include="Resources\manage_search_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitoring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitoring1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newspaper_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newspaper_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_active_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_active_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post_add_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post_add_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post_add_FILL0_wght400_GRAD0_opsz482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tips_and_updates_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tips_and_updates_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage_search_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_FILL0_wght400_GRAD0_opsz481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz4821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz4822.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_active_FILL0_wght400_GRAD0_opsz4811.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress.XtraEditors.v22.2.dll" />
+    <Content Include="image-removebg-preview.ico" />
+    <None Include="Resources\aaa.png" />
+    <None Include="Resources\arrow_back_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\pngwing.com %285%291.png" />
+    <None Include="Resources\pngwing.com %286%291.png" />
+    <None Include="Resources\image-removebg-preview.png" />
+    <None Include="Resources\pngwing.com %288%291.png" />
+    <None Include="Resources\pngwing.com %287%291.png" />
+    <None Include="Resources\image-removebg-preview %281%29.png" />
+    <None Include="Resources\image-removebg-preview %282%29.png" />
+    <None Include="Resources\image-removebg-preview %283%29.png" />
+    <None Include="Resources\house_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\home_work_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\home_work_FILL0_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\school_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\school_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\home_work_FILL0_wght400_GRAD0_opsz482.png" />
+    <None Include="Resources\school_FILL1_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\school_FILL1_wght400_GRAD0_opsz482.png" />
+    <None Include="Resources\house_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\home_work_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\school_FILL1_wght400_GRAD0_opsz483.png" />
+    <None Include="Resources\location_on_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\location_on_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\where_to_vote_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\location_on_FILL1_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\house_FILL1_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\refresh_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\refresh_FILL0_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\refresh_FILL0_wght400_GRAD0_opsz482.png" />
+    <None Include="Resources\filter_alt_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\filter_alt_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\filter_alt_FILL1_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\kisspng-social-media-check-mark-symbol-computer-icons-user-blue-tic-5b5b96fbb78473.4207575015327290837517.png" />
+    <None Include="Resources\circle.png" />
+    <None Include="Resources\oie_14185615VXIiudVs.png" />
+    <None Include="Resources\oie_14185615VXIiudVs %281%29.png" />
+    <None Include="Resources\oie_14185615VXIiudVs %282%29.png" />
+    <None Include="Resources\circle%281%29.png" />
+    <None Include="Resources\Bir alt başlık ekleyin.png" />
+    <None Include="Resources\note_add_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\note_add_FILL0_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\add_notes_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\add_notes_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\add_notes_FILL0_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\pngwing.com %289%291.png" />
+    <None Include="Resources\information-button.png" />
+    <None Include="Resources\chart.png" />
+    <None Include="Resources\aaa1.png" />
+    <None Include="Resources\novice.png" />
+    <None Include="Resources\idea.png" />
+    <None Include="Resources\inspiration.png" />
+    <None Include="Resources\idea1.png" />
+    <None Include="Resources\puzzle.png" />
+    <None Include="Resources\medium.png" />
+    <None Include="Resources\green-thinking.png" />
+    <None Include="Resources\eco-friendly.png" />
+    <None Include="Resources\recycling.png" />
+    <None Include="Resources\certificate.png" />
+    <None Include="Resources\industry.png" />
+    <None Include="Resources\planet-earth.png" />
+    <None Include="Resources\nature.png" />
+    <None Include="Resources\q_777a9025c1e71b00200cace6ab7996d7.jpg" />
+    <None Include="Resources\ipad-sahipleri-icin-not-alma-ipuclari-2.jpg" />
+    <None Include="Resources\exels.jpg" />
+    <None Include="Resources\36C3-PDF-digital-signature-featured-1.jpg" />
+    <None Include="Resources\word-sesi-metne-cevirme.jpg" />
+    <None Include="Resources\maxresdefault.jpg" />
+    <None Include="Resources\general.png" />
+    <None Include="Resources\notify %281%29.png" />
+    <None Include="Resources\general %284%29.png" />
+    <None Include="Resources\option.png" />
+    <None Include="Resources\application.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\document.png" />
+    <None Include="Resources\website.png" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.18.jpg" />
+    <None Include="Resources\word-sesi-metne-cevirme1.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.14.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.21.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.25.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.30.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.141.jpg" />
+    <None Include="Resources\3156-koyu-gri_renk_g475_1250x1000_t7okbiqy.jpg" />
+    <None Include="Resources\desktop.png" />
+    <None Include="Resources\computer %281%29.png" />
+    <None Include="Resources\more1.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\back1.png" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-15 saat 00.25.341.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-15 saat 00.25.34.jpg" />
+    <None Include="Resources\back2.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-18 saat 00.20.36.jpg" />
+    <None Include="Resources\play.png" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-12 saat 15.32.301.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-20 saat 19.33.17.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.29.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.41.28.jpg" />
+    <None Include="Resources\IMG-20230322-WA0004.jpg" />
+    <None Include="Resources\IMG-20230322-WA0005.jpg" />
+    <None Include="Resources\IMG-20230322-WA0006.jpg" />
+    <None Include="Resources\IMG-20230322-WA0007.jpg" />
+    <None Include="Resources\IMG-20230322-WA0008.jpg" />
+    <None Include="Resources\IMG-20230322-WA0009.jpg" />
+    <None Include="Resources\IMG-20230322-WA0010.jpg" />
+    <None Include="Resources\IMG-20230322-WA0043.jpg" />
+    <None Include="Resources\IMG-20230322-WA0045.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-20 saat 19.33.171.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.291.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.41.281.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-20 saat 19.33.172.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.292.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.41.282.jpg" />
+    <None Include="Resources\IMG-20230322-WA00451.jpg" />
+    <None Include="Resources\a.jpg" />
+    <None Include="Resources\IMG-20230322-WA00431.jpg" />
+    <None Include="Resources\IMG-20230322-WA00452.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.293.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.41.283.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.294.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 18.57.27.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.230.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.250.jpg" />
+    <None Include="Resources\WhatsApp Görsel 2023-03-22 saat 19.02.290.jpg" />
+    <None Include="Resources\y.jpg" />
+    <None Include="Resources\IMG-20230322-WA00041.jpg" />
+    <None Include="Resources\IMG-20230322-WA00051.jpg" />
+    <None Include="Resources\IMG-20230322-WA00061.jpg" />
+    <None Include="Resources\IMG-20230322-WA00071.jpg" />
+    <None Include="Resources\IMG-20230322-WA00081.jpg" />
+    <None Include="Resources\IMG-20230322-WA00091.jpg" />
+    <None Include="Resources\IMG-20230322-WA00101.jpg" />
+    <Content Include="TextFile1.txt" />
+    <None Include="Resources\pngwing.com %282%291.png" />
+    <None Include="Resources\pngwing.com1.png" />
+    <None Include="Resources\pngwing.com %281%291.png" />
+    <None Include="Resources\pngwing.com %283%291.png" />
+    <None Include="Resources\pngwing.com %284%291.png" />
+    <None Include="Resources\1-removebg-preview.png" />
+    <None Include="Resources\pngwing.com %2811%29.png" />
+    <None Include="Resources\pngwing.com %289%29.png" />
+    <None Include="Resources\pngwing.com %288%29.png" />
+    <None Include="Resources\pngwing.com %2810%29.png" />
+    <None Include="Resources\pngwing.com %285%29.png" />
+    <None Include="Resources\pngwing.com %286%29.png" />
+    <None Include="Resources\pngwing.com %287%29.png" />
+    <None Include="Resources\pngwing.com %284%29.png" />
+    <None Include="Resources\zyro-image.png" />
+    <None Include="Resources\bb.png" />
+    <None Include="Resources\aa1.png" />
+    <None Include="Resources\aa.png" />
+    <None Include="Resources\pngwing.com %282%29.png" />
+    <None Include="Resources\pngwing.com %281%29.png" />
+    <None Include="Resources\pngwing.com %283%29.png" />
+    <None Include="Resources\a930406950229bba14a591d651153f171.jpg" />
+    <None Include="Resources\Gormiti %281%29.jpg" />
+    <None Include="Resources\GroundedC.jpg" />
+    <None Include="Resources\capsule_616x353.jpg" />
+    <None Include="Resources\a07df83365da6ca90f635c0ba20bb6f8f3e958af.jpg" />
+    <None Include="Resources\1_QVjlu3K1P6syWnURIGaI9A.jpeg" />
+    <None Include="Resources\a930406950229bba14a591d651153f17.jpg" />
+    <None Include="Resources\Ekran görüntüsü 2023-01-18 124435.png" />
+    <None Include="Resources\code_FILL0_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\code_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\download_for_offline_FILL1_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\download_for_offline_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\download_FILL0_wght400_GRAD0_opsz482.png" />
+    <None Include="Resources\WhatsApp_Görsel_2023-01-15_saat_16.07.51-removebg-preview %281%29.png" />
+    <None Include="Resources\WhatsApp_Görsel_2023-01-15_saat_16.07.51-removebg-preview1.png" />
+    <None Include="Resources\grid_view_FILL0_wght400_GRAD0_opsz481.png" />
+    <None Include="Resources\temp_preferences_custom_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\grid_view_FILL0_wght400_GRAD0_opsz48.png" />
+    <None Include="Resources\WhatsApp_Görsel_2023-01-15_saat_16.07.51-removebg-preview.png" />
+    <None Include="Resources\notifications_FILL0_wght400_GRAD0_opsz4823.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Firebase.Authentication">
+      <Version>2.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="CefSharp.WinForms">
+      <Version>114.2.100</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseAdmin">
+      <Version>2.4.0</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseAuth">
+      <Version>2.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseAuthentication.net">
+      <Version>4.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseCoreSDK">
+      <Version>1.3.1</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseDatabase.net">
+      <Version>4.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseNetAdmin">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="FireSharp">
+      <Version>2.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="FireSharp.Serialization.JsonNet">
+      <Version>1.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3-beta1</Version>
+    </PackageReference>
+    <PackageReference Include="Siticone.Desktop.UI">
+      <Version>2.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="DevExpress.Data.v22.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties ShouldAddDPIScalingManifest="False" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

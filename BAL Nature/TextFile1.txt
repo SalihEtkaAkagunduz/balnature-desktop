@@ -1,0 +1,6 @@
+﻿hocam hata
+analizler bölümünde ayna gün verilen ifadelerin eşleşmeyişinde kaynaklanan bir sorun çöz
+Oyunlar bölümüne eklenen oyunların boyut sorununu çöz;
+Eklenen oyunların database ye kaydı
+oyunların aşahsıs bölümü
+indirlen oyunlar ve kütüphane bölümü
