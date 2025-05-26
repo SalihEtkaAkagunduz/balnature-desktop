@@ -1,17 +1,71 @@
-Bursa Anadolu Lisesi 2023-2024 Erasmus K-122 SRC kapsamında yapılan bir projedir
+# ♻️ BALNATURE – Akıllı Atık Takip ve Analiz Uygulaması
 
-uygulamanın amacı atık ve geri dönüşüm miktarını alıp analiz ederek tavsyelerde bulunmak analiz yapmak ve istatistik verilerini tutmaktır
+**Proje Türü:** Erasmus+ KA122-SCH (2023–2024)  
+**Okul:** Bursa Anadolu Lisesi  
+**Proje Numarası:** 2023-1-TR01-KA122-SCH-000164333  
+**Proje Sayfası:** [Erasmus+ Kabul Listesi](https://www.ua.gov.tr/media/epzhd1i3/2023_ka122_kabul_listesi.pdf)
 
-![Ekran görüntüsü 2023-10-21 181424](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/c77c201b-66d4-4d2c-b88d-10d6e661fb30)
-![Ekran görüntüsü 2023-10-21 181414](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/98b22a80-9583-4589-92db-bd85c23a22ab)
-![Ekran görüntüsü 2023-10-21 181408](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/e95fd741-5f69-4ad6-8034-9c11e690f378)
-![Ekran görüntüsü 2023-10-21 181405](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/9b821652-f754-4e7d-8296-963e32da8f0c)
-![Ekran görüntüsü 2023-10-21 181400](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/959be50f-5927-49f5-b1c6-6fc51101c6ac)
-![Ekran görüntüsü 2023-10-21 181355](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/9851cf20-2433-4cdb-a185-c0a02862e9fe)
-![Ekran görüntüsü 2023-10-21 181351](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/055bd3c4-f4d0-483f-88be-cb8eb4fca7a6)
-![Ekran görüntüsü 2023-10-21 181532](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/5b6f6647-d8ab-40de-9bb0-13597893d780)
-![Ekran görüntüsü 2023-10-21 181444](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/22d69391-f997-4894-adba-742504bc02ff)
-![Ekran görüntüsü 2023-10-21 181440](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/cf21c74a-14d8-4e5a-87eb-501a1710f9be)
-![Ekran görüntüsü 2023-10-21 181435](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/e7c71c23-ed86-49d2-bf30-cde41f7cb7c5)
-![Ekran görüntüsü 2023-10-21 181429](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/779eb384-675b-4d4f-b017-914dca7737c5)
-![85283388-fd57-4591-9ee2-7a027c995833](https://github.com/user-attachments/assets/24c0e051-bffb-4278-b5e2-81f33b03048f)
+---
+
+## 🎯 Proje Amacı
+
+**BALNATURE**, kullanıcıların atık ve geri dönüşüm miktarlarını girerek bu veriler üzerinden analiz yapan, öneriler sunan ve istatistiksel takip imkânı sunan bir mobil uygulamadır.
+
+### Hedefler:
+- Atık ve geri dönüşüm verilerini dijital olarak toplamak
+- Kullanıcıya özel analiz ve öneriler üretmek
+- Verileri grafiksel ve sayısal olarak istatistiksel biçimde sunmak
+
+---
+
+## 📱 Özellikler
+
+- 📊 **Veri Girişi:** Atık ve geri dönüşüm miktarlarının kolayca girilmesi  
+- 📈 **Analiz:** Girilen verilere göre öneri üretimi  
+- 📅 **İstatistik Takibi:** Grafik ve raporlarla ilerleme takibi  
+- 🌐 **Çoklu Dil Desteği**  
+- 📶 **Çevrimdışı Kullanım**
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Teknoloji         | Açıklama                 |
+|-------------------|--------------------------|
+| C#                | Ana programlama dili     |
+| Visual Studio     | Geliştirme ortamı        |
+| Firebase          | Yerel veri saklama       |
+| XAML              | Arayüz tasarımı          |
+| Git               | Sürüm kontrol sistemi    |
+
+---
+
+## 🖼️ Uygulama Görselleri
+
+Aşağıda uygulamaya ait bazı ekran görüntülerini bulabilirsiniz:
+
+## 🖼️ Uygulama Görselleri
+
+### 📱 Ana Ekranlar
+
+<table>
+  <tr>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/c77c201b-66d4-4d2c-b88d-10d6e661fb30" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/98b22a80-9583-4589-92db-bd85c23a22ab" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/e95fd741-5f69-4ad6-8034-9c11e690f378" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/9b821652-f754-4e7d-8296-963e32da8f0c" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/ba785527-7e82-4326-902e-9ee30a42038a" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/1ec59110-0417-41d6-b0a1-842745ad6ab9" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/f0b47f6a-76b4-49e2-bcbd-b48e69b20857" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/fc0a2540-0e5c-46e4-9880-f55c09b1e021" width="400"/></td>
+  </tr>
+</table>
+
+## 📁 Proje Yapısı
+
