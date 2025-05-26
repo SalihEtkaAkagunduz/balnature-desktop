@@ -73,6 +73,28 @@ Aşağıda uygulamaya ait bazı ekran görüntülerini bulabilirsiniz:
     <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/e7c71c23-ed86-49d2-bf30-cde41f7cb7c5" width="400"/></td>
     <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/779eb384-675b-4d4f-b017-914dca7737c5" width="400"/></td>
   </tr>
+  <table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/3d297a68-f931-4bc8-bce4-a12a73f61e13" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c5f60b10-7fb5-45ba-be87-9573455eb1b1" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/277e31db-adee-401d-9e9f-72752f27b72a" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b1bd3b6e-65eb-4518-b7e8-40763a45aaf5" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/bf42beaf-430f-4c9d-9427-044c91e44a37" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5d455a43-420f-4a6d-b387-fc5ca1895397" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6903730a-6905-4376-89f7-475a4a7407e4" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/d09e1158-34ae-428c-919f-780c924d0bc7" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/aa92d68d-0dbc-4979-a930-57edd166a546" width="400"/></td>
+  </tr>
+</table>
+
 </table>
 
 ## 📁 Proje Yapısı
