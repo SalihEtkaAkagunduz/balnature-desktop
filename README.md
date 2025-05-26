@@ -18,7 +18,7 @@
 
 ---
 
-## 📱 Özellikler
+## 🖥️ Özellikler
 
 - 📊 **Veri Girişi:** Atık ve geri dönüşüm miktarlarının kolayca girilmesi  
 - 📈 **Analiz:** Girilen verilere göre öneri üretimi  
@@ -46,8 +46,8 @@ Aşağıda uygulamaya ait bazı ekran görüntülerini bulabilirsiniz:
 
 ## 🖼️ Uygulama Görselleri
 
-### 📱 Ana Ekranlar
-
+### 🖥️ Ana Ekranlar
+![85283388-fd57-4591-9ee2-7a027c995833](https://github.com/user-attachments/assets/24c0e051-bffb-4278-b5e2-81f33b03048f)
 <table>
   <tr>
     <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/c77c201b-66d4-4d2c-b88d-10d6e661fb30" width="400"/></td>
@@ -58,14 +58,31 @@ Aşağıda uygulamaya ait bazı ekran görüntülerini bulabilirsiniz:
     <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/9b821652-f754-4e7d-8296-963e32da8f0c" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/ba785527-7e82-4326-902e-9ee30a42038a" width="400"/></td>
-    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/1ec59110-0417-41d6-b0a1-842745ad6ab9" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/959be50f-5927-49f5-b1c6-6fc51101c6ac" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/9851cf20-2433-4cdb-a185-c0a02862e9fe" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/f0b47f6a-76b4-49e2-bcbd-b48e69b20857" width="400"/></td>
-    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/fc0a2540-0e5c-46e4-9880-f55c09b1e021" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/055bd3c4-f4d0-483f-88be-cb8eb4fca7a6" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/5b6f6647-d8ab-40de-9bb0-13597893d780" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/22d69391-f997-4894-adba-742504bc02ff" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/cf21c74a-14d8-4e5a-87eb-501a1710f9be" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/e7c71c23-ed86-49d2-bf30-cde41f7cb7c5" width="400"/></td>
+    <td><img src="https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/779eb384-675b-4d4f-b017-914dca7737c5" width="400"/></td>
   </tr>
 </table>
 
 ## 📁 Proje Yapısı
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
