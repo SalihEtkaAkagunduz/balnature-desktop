@@ -14,3 +14,4 @@ uygulamanın amacı atık ve geri dönüşüm miktarını alıp analiz ederek ta
 ![Ekran görüntüsü 2023-10-21 181440](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/cf21c74a-14d8-4e5a-87eb-501a1710f9be)
 ![Ekran görüntüsü 2023-10-21 181435](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/e7c71c23-ed86-49d2-bf30-cde41f7cb7c5)
 ![Ekran görüntüsü 2023-10-21 181429](https://github.com/SalihEtkaAkagunduz/balnature-desktop/assets/109075419/779eb384-675b-4d4f-b017-914dca7737c5)
+![85283388-fd57-4591-9ee2-7a027c995833](https://github.com/user-attachments/assets/24c0e051-bffb-4278-b5e2-81f33b03048f)
