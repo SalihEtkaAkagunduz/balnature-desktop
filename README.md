@@ -1,4 +1,4 @@
-![19](https://github.com/user-attachments/assets/250f0554-948f-4c39-a77c-e68bc0e6afa5)![17](https://github.com/user-attachments/assets/7cfb1583-9fd4-4b47-bc9a-105a4f5232eb)![15](https://github.com/user-attachments/assets/7ae9a17a-9092-410f-af31-e893e7f68e39)![13](https://github.com/user-attachments/assets/47edb6ee-2a19-4534-9ce1-2388bb54a14f)![11](https://github.com/user-attachments/assets/d17a32ac-839c-41eb-afd3-5fa2a2af5d36)# ♻️ BALNATURE – Akıllı Atık Takip ve Analiz Uygulaması
+# ♻️ BALNATURE – Akıllı Atık Takip ve Analiz Uygulaması
 
 **Proje Türü:** Erasmus+ KA122-SCH (2023–2024)  
 **Okul:** Bursa Anadolu Lisesi  
